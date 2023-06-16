@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "priority": 1,
+        "action": {
+            "type": "block",
+            "requestHeaders": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter":  "https://m.ctrip.com/*",
+            "resourceTypes": [
+                "xmlhttprequest"
+            ]
+        }
+    }
+]
