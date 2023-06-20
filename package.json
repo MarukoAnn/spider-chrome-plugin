@@ -10,7 +10,11 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@plasmohq/messaging": "^0.4.0",
+    "@plasmohq/storage": "^1.6.1",
+    "await-to-js": "^3.0.0",
     "plasmo": "0.76.3",
+    "pubsub-js": "^1.9.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -28,8 +32,9 @@
       "https://*/*"
     ],
     "permissions": [
-      "webRequest", 
-      "webRequestBlocking"
+      "storage",
+      "webRequest",
+      "tabs"
     ]
   }
 }
